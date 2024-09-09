@@ -55,6 +55,7 @@ button{
     font-size: 35px;
     font-weight: bold;
     cursor: pointer;
+    text-align: center;
 }
 button:hover{
     background-color: hsl(0,0%, 45%);
@@ -95,6 +96,9 @@ button:active{
         font-size: 40px;
         font-weight: bold;
         
+    }
+    #keys{
+        gap: 20px;
     }
 }
 
