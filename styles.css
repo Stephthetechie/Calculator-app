@@ -4,25 +4,26 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;   
-    background-color: rgb(226, 246, 255)
+    background-color: rgb(226, 246, 255);
+    overflow: hidden;
 
 }
 
 #calculator{
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgba(0, 0, 0, 0.895);
+    background-color: rgba(42, 95, 128, 0.895);
     border-radius: 15px;
     max-width: 400px;
-    overflow: hidden;
 
 }
 #display{
     width: 100%;
-    padding: 20px;
-    font-size:35px ;
+    padding: 20px 10px;
+    padding-right: 0;
+    font-size:50px ;
     text-align: justify;
     border: none;
-    background-color: rgba(56, 53, 53, 0.484);
+    background-color: rgba(9, 21, 44, 0.484);
     color: #fff;
     max-width: 100%;
     text-overflow: clip;
@@ -48,11 +49,12 @@ body{
 button{
     width:70px ;
     height:70px ;
-    border-radius: 50px;
+    border-radius: 10px;
     border: none;
+    padding: 10px;
     background-color: rgb(83, 82, 86);
     color: #fff;
-    font-size: 35px;
+    font-size: 30px;
     font-weight: bold;
     cursor: pointer;
     text-align: center;
@@ -84,11 +86,13 @@ button:active{
 
 @media (max-width:768px) {
     #calculator{
+        
+        padding: 20px;
         height: 100vh;
     }
     #display{
-        height: 100px;
-        font-size: 40px;
+        height: auto;
+        font-size: 20px;
     }
     button{
         width:80px ;
